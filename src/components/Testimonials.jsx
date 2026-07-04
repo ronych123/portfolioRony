@@ -19,9 +19,9 @@ const testimonials = [
   {
     quote:
       "Rony built a scalable backend and API that has been reliable since launch. The codebase is clean, easy to maintain, and adding new features has been straightforward. I'd gladly collaborate with him again.",
-    name: "Elsy Ibrahim",
+    name: "John Doe",
     role: "Founder",
-    initials: "EI",
+    initials: "JD",
   },
 ];
 
