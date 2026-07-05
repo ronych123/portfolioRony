@@ -29,7 +29,12 @@ const socialLinks = [
 export function Footer() {
   const scrollToSection = (id) => {
     const el = document.getElementById(id);
-    if (el) el.scrollIntoView({ behavior: "smooth" });
+    if (!el) return;
+
+    const yOffset = -72;
+    const y = el.getBoundingClientRect().top + window.pageYOffset + yOffset;
+
+    window.scrollTo({ top: y, behavior: "smooth" });
   };
 
   return (
@@ -148,7 +153,8 @@ export function Footer() {
                 className="flex items-center gap-2 text-white/45 hover:text-white text-[14px] transition-colors duration-200"
               >
                 <FontAwesomeIcon icon={faEnvelope} className="w-3.5 h-3.5 text-[#C8A45B]/60" />
-                roni_chammai@hotmail.com
+                {/* roni_chammai@hotmail.com */}
+                Email
               </a>
               <a
                 href="https://linkedin.com/in/ronyalchammai"

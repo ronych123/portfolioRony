@@ -8,7 +8,7 @@ const reasons = [
     number: "01",
     title: "Clean, maintainable code",
     description:
-      "I write code as if the next developer who reads it is you — clear, documented, and built to last beyond the initial launch.",
+      "We write code as if the next developer who reads it is you — clear, documented, and built to last beyond the initial launch.",
     image:
       "https://images.unsplash.com/photo-1547860664-b8537ca5f833?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzb2Z0d2FyZSUyMGRldmVsb3BtZW50JTIwY29kaW5nJTIwbGFwdG9wJTIwd29ya3NwYWNlfGVufDF8fHx8MTc3NTQ4NTQxN3ww&ixlib=rb-4.1.0&q=80&w=1080",
   },
@@ -16,7 +16,7 @@ const reasons = [
     number: "02",
     title: "Performance by default",
     description:
-      "Speed isn't an afterthought. Every application I build is optimized for real-world performance from day one.",
+      "Speed isn't an afterthought. Every application we build is optimized for real-world performance from day one.",
     image:
       "https://images.unsplash.com/photo-1686061592689-312bbfb5c055?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
@@ -32,7 +32,7 @@ const reasons = [
     number: "04",
     title: "Delivery you can rely on",
     description:
-      "Timelines exist for a reason. I take deadlines seriously and flag issues early — not the day before something is due.",
+      "Timelines exist for a reason. We take deadlines seriously and flag issues early — not the day before something is due.",
     image:
       "https://images.unsplash.com/photo-1633526543814-9718c8922b7a?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
@@ -40,7 +40,7 @@ const reasons = [
     number: "05",
     title: "Scalable architecture",
     description:
-      "I build for where you're going, not just where you are. The systems I design are ready to grow when your business does.",
+      "We build for where you're going, not just where you are. The systems we design are ready to grow when your business does.",
     image:
       "https://images.unsplash.com/photo-1531403009284-440f080d1e12?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
@@ -48,7 +48,7 @@ const reasons = [
     number: "06",
     title: "Attention to detail",
     description:
-      "The difference between good and great is often in the details — the micro-interactions, the edge cases, the finish.",
+      "The difference between good and great is often in the details — the micro-interactions, the edge cases, and the finishing touches.",
     image:
       "https://images.unsplash.com/photo-1672309558498-cfcc89afff25?q=80&w=1335&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
@@ -82,7 +82,7 @@ export function WhyWorkWithMe() {
               transition={{ duration: 0.6 }}
               className="text-[#C8A45B] text-[13px] tracking-[0.2em] uppercase font-medium mb-6"
             >
-              Why Rony
+              Why Choose Us
             </motion.p>
             <motion.h2
               initial={{ opacity: 0, y: 20 }}
@@ -94,7 +94,7 @@ export function WhyWorkWithMe() {
                 fontSize: "clamp(2.25rem, 3.5vw, 3rem)",
               }}
             >
-              Why clients choose to work with me
+              Why clients choose to work with us
             </motion.h2>
 
             <motion.p

@@ -8,7 +8,7 @@ const services = [
     number: "01",
     title: "Website Development",
     description:
-      "A well-built website isn't just a digital brochure — it's your best sales tool. I design and develop fast, conversion-focused websites that establish credibility and turn visitors into clients.",
+      "A well-built website isn't just a digital brochure — it's your best sales tool. We design and develop fast, conversion-focused websites that establish credibility and turn visitors into clients.",
     tags: ["Marketing Sites", "Landing Pages", "SEO-First"],
     image:
       "https://images.unsplash.com/photo-1634084462412-b54873c0a56d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx3ZWJzaXRlJTIwZGVzaWduJTIwbGFuZGluZyUyMHBhZ2UlMjBtb2NrdXB8ZW58MXx8fHwxNzc1NDg0ODgxfDA&ixlib=rb-4.1.0&q=80&w=1080",
@@ -93,7 +93,7 @@ export function Services() {
                 fontSize: "clamp(2.25rem, 4vw, 3.5rem)",
               }}
             >
-              <span className="block sm:inline">What I can</span>{" "}
+              <span className="block sm:inline">What We can</span>{" "}
               <span className="block sm:inline">build for you</span>
             </motion.h2>
           </div>
@@ -103,7 +103,7 @@ export function Services() {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="text-white/45 text-[17px] leading-relaxed lg:max-w-[400px]"
           >
-            Every service I offer is tied to one outcome: making your product better, faster, and more
+            Every service we offer is tied to one outcome: making your product better, faster, and more
             valuable to your customers.
           </motion.p>
         </div>
@@ -175,7 +175,7 @@ export function Services() {
               Not sure what you need?
             </p>
             <p className="text-white/40 text-[15px]">
-              Let's talk. I'll help you figure out the right approach for your goals.
+              Let's talk. We'll help you figure out the right approach for your goals.
             </p>
           </div>
           <button

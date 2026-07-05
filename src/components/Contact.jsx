@@ -4,6 +4,8 @@ import { Mail, Send, ArrowRight } from "lucide-react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
 import { useState } from "react";
+import emailjs from "@emailjs/browser";
+import toast from "react-hot-toast";
 
 export function Contact() {
   const [ref, isInView] = useInView({ threshold: 0.12 });
@@ -16,17 +18,41 @@ export function Contact() {
   const [isSubmitted, setIsSubmitted] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     setIsLoading(true);
-    setTimeout(() => {
-      setIsLoading(false);
+
+    try {
+      await emailjs.send(
+        "service_3ym8o5e",
+        "template_x7c1gnl",
+        {
+          from_name: formData.name,
+          from_email: formData.email,
+          budget: formData.budget,
+          message: formData.message,
+          to_email: "roni_chammai@hotmail.com",
+        },
+        "iCMASybbMMpiiEdua"
+      );
+
       setIsSubmitted(true);
+
+      setFormData({
+        name: "",
+        email: "",
+        budget: "",
+        message: "",
+      });
+
       setTimeout(() => {
         setIsSubmitted(false);
-        setFormData({ name: "", email: "", budget: "", message: "" });
       }, 4000);
-    }, 800);
+    } catch (error) {
+      toast.error("Failed to send message");
+    }
+
+    setIsLoading(false);
   };
 
   const handleChange = (e) => {
@@ -76,7 +102,7 @@ export function Contact() {
               className="text-white/45 text-[16px] leading-relaxed mb-12"
             >
               Whether you have a fully defined project or just an idea you're thinking through — reach
-              out. I'll give you an honest assessment of what's possible and what it would take.
+              out. We'll give you an honest assessment of what's possible and what it would take.
             </motion.p>
 
             {/* Contact links */}
@@ -218,7 +244,8 @@ export function Contact() {
                         style={{ colorScheme: "dark" }}
                       >
                         <option value="" className="bg-[#0D1B2A]">Select a range...</option>
-                        <option value="under-5k" className="bg-[#0D1B2A]">Under $5,000</option>
+                        <option value="1-1k" className="bg-[#0D1B2A]">$100 - $1,000</option>
+                        <option value="1k-5k" className="bg-[#0D1B2A]">$1,000 – $5,000</option>
                         <option value="5k-15k" className="bg-[#0D1B2A]">$5,000 – $15,000</option>
                         <option value="15k-30k" className="bg-[#0D1B2A]">$15,000 – $30,000</option>
                         <option value="30k-plus" className="bg-[#0D1B2A]">$30,000+</option>

@@ -1,6 +1,6 @@
 import { motion } from "motion/react";
 import { useInView } from "./hooks/useInView";
-import { ExternalLink, Github } from "lucide-react";
+import { ExternalLink } from "lucide-react";
 
 const projects = [
   {
@@ -56,7 +56,7 @@ export function Portfolio() {
           <h2 className="text-4xl md:text-5xl text-white mb-4">Featured Projects</h2>
           <div className="w-20 h-1 bg-gold mx-auto mb-6"></div>
           <p className="text-lg text-gray-300 max-w-2xl mx-auto">
-            A showcase of recent projects that demonstrate my expertise in building modern web solutions
+            A showcase of recent projects that demonstrate our expertise in building modern web solutions
           </p>
         </motion.div>
 
@@ -80,9 +80,9 @@ export function Portfolio() {
                     <button className="p-3 bg-gold rounded-lg hover:bg-gold/90 transition-colors">
                       <ExternalLink className="w-5 h-5 text-dark-navy" />
                     </button>
-                    <button className="p-3 bg-white rounded-lg hover:bg-white/90 transition-colors">
+                    {/* <button className="p-3 bg-white rounded-lg hover:bg-white/90 transition-colors">
                       <Github className="w-5 h-5 text-dark-navy" />
-                    </button>
+                    </button> */}
                   </div>
                 </div>
                 

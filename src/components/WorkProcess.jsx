@@ -56,6 +56,16 @@ const steps = [
 export function WorkProcess() {
   const [ref, isInView] = useInView({ threshold: 0.06 });
 
+  const scrollToSection = (id) => {
+    const el = document.getElementById(id);
+    if (!el) return;
+
+    const yOffset = -72;
+    const y = el.getBoundingClientRect().top + window.pageYOffset + yOffset;
+
+    window.scrollTo({ top: y, behavior: "smooth" });
+  };
+
   return (
     <section id="process" className="py-32 px-6 bg-[#F6F2EA]" ref={ref}>
       <div className="max-w-7xl mx-auto">
@@ -143,7 +153,7 @@ export function WorkProcess() {
             <strong className="text-[#0D1B2A]/80 font-semibold">4 to 12 weeks</strong> depending on scope.
           </p>
           <button
-            onClick={() => document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" })}
+            onClick={() => scrollToSection("contact")}
             className="flex-shrink-0 text-[14px] font-semibold text-[#C8A45B] hover:text-[#b89550] transition-colors underline underline-offset-4"
           >
             Discuss your timeline →

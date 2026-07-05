@@ -50,13 +50,13 @@ export function About() {
               className="space-y-5 mb-10"
             >
               <p className="text-[#0D1B2A]/65 text-[17px] leading-[1.75]">
-                I'm <strong className="text-[#0D1B2A] font-semibold">Rony Al Chammai</strong>, a software developer focused on
-                building digital products that solve real business problems. I care deeply about clean
+                {/* I'm <strong className="text-[#0D1B2A] font-semibold">Rony Al Chammai</strong>, a software developer focused on */}
+                We're a product-focused development studio building digital products that solve real business problems. We care deeply about clean
                 architecture, thoughtful code, and delivering work that actually makes a difference.
               </p>
               <p className="text-[#0D1B2A]/65 text-[17px] leading-[1.75]">
                 Whether you're a startup building from scratch or an established business looking to
-                scale, I bring the technical expertise and the clarity of communication that turns your
+                scale, we bring the technical expertise and the clarity of communication that turns your
                 vision into a working product — on time and without surprises.
               </p>
             </motion.div>

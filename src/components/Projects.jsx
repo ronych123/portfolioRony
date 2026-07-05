@@ -20,7 +20,7 @@ const solutions = [
     problem:
       "Many businesses lack a professional online presence, causing them to lose credibility and potential customers.",
     solution:
-      "I build polished, fast, and conversion-focused websites that represent your brand, highlight your services, and turn visitors into customers.",
+      "We build polished, fast, and conversion-focused websites that represent your brand, highlight your services, and turn visitors into customers.",
     image:
       "https://images.unsplash.com/photo-1726056652663-8f1e42b2fc95?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxidXNpbmVzcyUyMGNvbXBhbnklMjBwcm9mZXNzaW9uYWwlMjB3ZWJzaXRlJTIwbGFwdG9wfGVufDF8fHx8MTc3NTQ4NDg3NHww&ixlib=rb-4.1.0&q=80&w=1080",
   },
@@ -31,7 +31,7 @@ const solutions = [
     problem:
       "Freelancers, developers, and creatives struggle to stand out and showcase their work in a compelling way online.",
     solution:
-      "I design modern portfolio websites that highlight your skills and experience, helping you attract the right clients and opportunities.",
+      "We design modern portfolio websites that highlight your skills and experience, helping you attract the right clients and opportunities.",
     image:
       "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?q=80&w=1738&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
@@ -42,7 +42,7 @@ const solutions = [
     problem:
       "Businesses relying on physical stores or social media miss out on sales from customers who prefer to shop online.",
     solution:
-      "I build full-featured online stores with product management, secure checkout, and seamless payment integration — ready to sell from day one.",
+      "We build full-featured online stores with product management, secure checkout, and seamless payment integration — ready to sell from day one.",
     image:
       "https://images.unsplash.com/photo-1646193186175-4ec30e6e5882?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
@@ -53,7 +53,7 @@ const solutions = [
     problem:
       "Service-based businesses like clinics, salons, and restaurants lose bookings when customers can't easily reserve a slot.",
     solution:
-      "I develop smart booking platforms that let clients schedule appointments 24/7, with automated confirmations and calendar management.",
+      "We develop smart booking platforms that let clients schedule appointments 24/7, with automated confirmations and calendar management.",
     image:
       "https://images.unsplash.com/photo-1772734645532-a200e06f105d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxhcHBvaW50bWVudCUyMGJvb2tpbmclMjBjYWxlbmRhciUyMHNjaGVkdWxpbmclMjBhcHB8ZW58MXx8fHwxNzc1NDg0ODc1fDA&ixlib=rb-4.1.0&q=80&w=1080",
   },
@@ -64,7 +64,7 @@ const solutions = [
     problem:
       "Growing businesses struggle to track orders, users, and analytics when data is scattered across multiple tools.",
     solution:
-      "I build centralised admin dashboards that give your team a clear overview of operations, metrics, and performance — all in one place.",
+      "We build centralised admin dashboards that give your team a clear overview of operations, metrics, and performance — all in one place.",
     image:
       "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=1630&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
@@ -75,7 +75,7 @@ const solutions = [
     problem:
       "Companies managing teams manually through spreadsheets and email face inefficiency, errors, and poor visibility.",
     solution:
-      "I create internal HR tools to manage employees, track leave requests, handle schedules, and streamline day-to-day operations.",
+      "We create internal HR tools to manage employees, track leave requests, handle schedules, and streamline day-to-day operations.",
     image:
       "https://images.unsplash.com/photo-1758876203342-fc14c0bba67c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx0ZWFtJTIwb2ZmaWNlJTIwcGVvcGxlJTIwd29ya2luZyUyMGNvbGxhYm9yYXRpb258ZW58MXx8fHwxNzc1NDg1NDA4fDA&ixlib=rb-4.1.0&q=80&w=1080",
   },
@@ -118,7 +118,7 @@ export function Projects() {
               transition={{ duration: 0.6 }}
               className="text-[#C8A45B] text-[13px] tracking-[0.2em] uppercase font-medium mb-6"
             >
-              What I Build
+              What We Build
             </motion.p>
             <motion.h2
               initial={{ opacity: 0, y: 20 }}
@@ -130,7 +130,7 @@ export function Projects() {
                 fontSize: "clamp(2.25rem, 4vw, 3.5rem)",
               }}
             >
-              Solutions &amp; Websites I Can Build For You
+              Solutions &amp; Websites We Can Build For You
             </motion.h2>
           </div>
           <motion.p
@@ -140,7 +140,7 @@ export function Projects() {
             className="text-[#0D1B2A]/50 text-[16px] leading-relaxed lg:max-w-[400px]"
           >
             From simple business websites to complex SaaS platforms — here are the types of digital
-            products I design and develop for clients.
+            products we design and develop for clients.
           </motion.p>
         </div>
 

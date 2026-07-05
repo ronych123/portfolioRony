@@ -8,6 +8,7 @@ import { WorkProcess } from "./components/WorkProcess";
 import { Testimonials } from "./components/Testimonials";
 import { Contact } from "./components/Contact";
 import { Footer } from "./components/Footer";
+import { Toaster } from "react-hot-toast";
 
 export default function App() {
   return (
@@ -22,6 +23,8 @@ export default function App() {
       <Testimonials />
       <Contact />
       <Footer />
+
+      <Toaster position="bottom-right" />
     </div>
   );
 }

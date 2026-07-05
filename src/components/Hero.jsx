@@ -4,7 +4,12 @@ import { ArrowRight, ArrowDown } from "lucide-react";
 export function Hero() {
   const scrollToSection = (id) => {
     const el = document.getElementById(id);
-    if (el) el.scrollIntoView({ behavior: "smooth" });
+    if (!el) return;
+
+    const yOffset = -72;
+    const y = el.getBoundingClientRect().top + window.pageYOffset + yOffset;
+
+    window.scrollTo({ top: y, behavior: "smooth" });
   };
 
   return (
@@ -68,7 +73,7 @@ export function Hero() {
                 fontSize: "clamp(3rem, 6vw, 5.25rem)",
               }}
             >
-              I build software
+              We build software
               <br />
               your business
               <br />
