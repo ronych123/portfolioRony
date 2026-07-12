@@ -197,7 +197,7 @@ export function Contact() {
                     Start a Conversation
                   </h3>
                   <p className="text-white/40 text-[14px] mb-8">
-                    Tell me about your project — even a rough idea is a great starting point.
+                    Tell us about your project — even a rough idea is a great starting point.
                   </p>
 
                   <form onSubmit={handleSubmit} className="space-y-5">
@@ -263,7 +263,7 @@ export function Contact() {
                         onChange={handleChange}
                         required
                         rows={5}
-                        placeholder="Tell me about your project — what you're building, your timeline, and what you need help with..."
+                        placeholder="Tell us about your project — what you're building, your timeline, and what you need help with..."
                         className="w-full px-4 py-3.5 bg-white/[0.06] border border-white/10 rounded-xl text-white placeholder-white/20 focus:border-[#C8A45B]/50 focus:bg-white/[0.08] transition-all duration-200 resize-none text-[14px]"
                       />
                     </div>

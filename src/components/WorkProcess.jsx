@@ -41,7 +41,7 @@ const steps = [
     description:
       "Thorough QA across devices, browsers, and edge cases. I don't ship until I'm confident it will hold up in the real world.",
     image:
-      "https://images.unsplash.com/photo-1705579611598-e6d261d0107b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxxdWFsaXR5JTIwdGVzdGluZyUyMGJ1ZyUyMHJldmlldyUyMG1hZ25pZnlpbmclMjBnbGFzc3xlbnwxfHx8fDE3NzU0ODU0MTh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "https://images.unsplash.com/photo-1695374688412-4d6ff0bf6c6c?q=80&w=1364&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
   {
     number: "06",

@@ -4,24 +4,24 @@ import { useInView } from "./hooks/useInView";
 const testimonials = [
   {
     quote:
-      "Working with Rony was a smooth and professional experience from start to finish. He understood our vision, communicated clearly throughout the project, and delivered a polished result that aligned perfectly with our expectations. His attention to detail and commitment to quality made the entire process effortless.",
+      "Working with this team was a smooth and professional experience from start to finish. They understood our vision, communicated clearly throughout the project, and delivered a polished solution that aligned perfectly with our expectations. Their attention to detail and commitment to quality made the entire process effortless.",
     name: "Gilbert Loutfi",
     role: "CEO",
     initials: "GL",
   },
   {
     quote:
-      "Rony quickly understood the project's requirements and turned complex ideas into practical solutions. He was proactive, responsive to feedback, and consistently found ways to improve both the user experience and the overall performance of the application.",
+      "The team quickly understood our requirements and transformed complex ideas into practical, user-friendly solutions. They were proactive, responsive to feedback, and consistently found ways to improve both the user experience and the overall performance of the application.",
     name: "Hoda Mrad",
     role: "Product Manager",
     initials: "HM",
   },
   {
     quote:
-      "Rony built a scalable backend and API that has been reliable since launch. The codebase is clean, easy to maintain, and adding new features has been straightforward. I'd gladly collaborate with him again.",
-    name: "John Doe",
+      "They built a scalable backend and API that has been reliable since launch. The codebase is clean, easy to maintain, and expanding the platform with new features has been straightforward. We'd gladly collaborate with this company again.",
+    name: "Jessika Arairo",
     role: "Founder",
-    initials: "JD",
+    initials: "JA",
   },
 ];
 
